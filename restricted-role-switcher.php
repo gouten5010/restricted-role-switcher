@@ -6,6 +6,8 @@ Description: Webmaster用権限グループを追加します
 Version: 0.0.1
 Author: GOUTEN
 Author URI: http://5010works.com/
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Domain Path: /languages
 Text Domain: rrswitcher
 */
