@@ -16,10 +16,10 @@ require_once(dirname(__FILE__).'/includes/role.class.php');
 
 function activate_add_role() {
 	global $wp_roles;
-	if (!isset($wp_roles->roles['webmaster'])) {
+	if (!isset($wp_roles->roles['owner'])) {
 		new rrs_createNewRole(
-			'webmaster',
-			'webmaster',
+			'owner',
+			'owner',
 			'editor',
 			array('edit_theme_options')
 		);
@@ -28,6 +28,6 @@ function activate_add_role() {
 register_activation_hook(__FILE__, 'activate_add_role');
 
 function deactivate_remove_role() {
-	remove_role('webmaster');
+	remove_role('owner');
 }
 register_deactivation_hook(__FILE__, 'deactivate_remove_role');
