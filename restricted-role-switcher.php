@@ -3,7 +3,7 @@
 Plugin Name: Restricted Role Switcher
 Plugin URI: https://github.com/gouten5010/restricted-role-switcher
 Description: Webmaster用権限グループを追加します
-Version: 0.0.1
+Version: 0.0.2
 Author: GOUTEN
 Author URI: http://5010works.com/
 License: GPLv2 or later
